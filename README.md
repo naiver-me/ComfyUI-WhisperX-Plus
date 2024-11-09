@@ -53,7 +53,6 @@ to speaker diarization, you need!
 <div>
   <figure>
   <img alt='QQ Group' src="QQGroup.jpg?raw=true" width="300px"/>
-  <img alt='donate' src="donate.jpg?raw=true" width="300px"/>
   <figure>
 </div>
 
