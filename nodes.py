@@ -11,6 +11,9 @@ from datetime import timedelta
 input_path = folder_paths.get_input_directory()
 out_path = folder_paths.get_output_directory()
 
+torch.backends.cuda.matmul.allow_tf32 = True
+torch.backends.cudnn.allow_tf32 = True
+
 class PreViewSRT:
     @classmethod
     def INPUT_TYPES(s):
